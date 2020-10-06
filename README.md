@@ -2,7 +2,7 @@
 
 1. `go get github.com/loadimpact/k6`
 2. `cd $GOPATH/src/github.com/loadimpact/k6`
-3. `go get -u github.com/mardukbp/k6gopackage`
+3. `go get -u github.com/mardukbp/k6gopackage@version`
 4. In `js/modules/index.go`:
    - add `"github.com/mardukbp/k6gopackage"` to the list of imported packages
    - add an entry to the `Index` map that begins with **"k6/"** (this is hardcoded in k6)
